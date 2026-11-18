@@ -56,7 +56,6 @@ public class DialogueTrigger : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             playerInRange = true;
-            Debug.Log("yeah..");
         }
     }
 

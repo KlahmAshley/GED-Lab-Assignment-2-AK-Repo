@@ -50,7 +50,7 @@ public class DialogueManager : Observer
     public GameObject bJock;
     public GameObject bFail;
 
-    private DialogueManagerController DMC;
+   private DialogueManagerController DMC;
     private bool _isDialogueOn;
 
 
@@ -90,12 +90,22 @@ public class DialogueManager : Observer
 
     private void Update()
     {
+
+
+        if (!dialogueIsPlaying)
+        {
+            return;
+        }
+
+
+
+       if (!dialogueIsPlaying || _isDialogueOn)
+        {
+           return;
+        }
+
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (!dialogueIsPlaying || _isDialogueOn)
-            {
-                return;
-            }
             if (currentStory.currentChoices.Count == 0)
             {
                 ContinueStory();
@@ -111,7 +121,6 @@ public class DialogueManager : Observer
         stopMovement.enabled = false;
         currentStory = new Story(inkJSON.text);
         dialogueIsPlaying = true;
-        DMC.
         dialoguePanel.SetActive(true);
         NameText.text = "???";
         portraitAnimator.Play("default");
@@ -291,7 +300,7 @@ public class DialogueManager : Observer
         }
 
     }
-
+  
 
 
 }

@@ -22,8 +22,16 @@ public class DialogueManagerController : Subject
 
 
     }
- 
-   private void OnEnable()
+
+    private void Start()
+    {
+       if(dialogueManager)
+       {
+           dialogueManager.Notify(this);
+        }
+    }
+
+    private void OnEnable()
         {
             if (dialogueManager)
                 Attach(dialogueManager);
@@ -32,8 +40,8 @@ public class DialogueManagerController : Subject
 
      private void OnDisable()
         {
-            if (dialogueManager)
-                Detach(dialogueManager);
+           if (dialogueManager)
+             Detach(dialogueManager);
         }
  
     public void ToggleDialogue()
