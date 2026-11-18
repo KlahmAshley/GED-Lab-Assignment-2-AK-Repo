@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\klahm\\OneDrive\\Documents\\GitHub\\GED Lab Assignment 2 AK Repo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{736FD520-CCF9-F7EC-77D7-4AE847E2D9FA}|Assembly-CSharp.csproj|c:\\users\\klahm\\onedrive\\documents\\github\\ged lab assignment 2 ak repo\\assets\\audio\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736FD520-CCF9-F7EC-77D7-4AE847E2D9FA}|Assembly-CSharp.csproj|solutionrelative:assets\\audio\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736FD520-CCF9-F7EC-77D7-4AE847E2D9FA}|Assembly-CSharp.csproj|c:\\users\\klahm\\onedrive\\documents\\github\\ged lab assignment 2 ak repo\\assets\\scripts\\lab2 additional scripts\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736FD520-CCF9-F7EC-77D7-4AE847E2D9FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lab2 additional scripts\\singleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736FD520-CCF9-F7EC-77D7-4AE847E2D9FA}|Assembly-CSharp.csproj|C:\\Users\\klahm\\OneDrive\\Documents\\GitHub\\GED Lab Assignment 2 AK Repo\\assets\\scripts\\questmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736FD520-CCF9-F7EC-77D7-4AE847E2D9FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\questmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{736FD520-CCF9-F7EC-77D7-4AE847E2D9FA}|Assembly-CSharp.csproj|C:\\Users\\klahm\\OneDrive\\Documents\\GitHub\\GED Lab Assignment 2 AK Repo\\assets\\scripts\\ui\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{736FD520-CCF9-F7EC-77D7-4AE847E2D9FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\scenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "audioManager.cs",
+              "DocumentMoniker": "C:\\Users\\klahm\\OneDrive\\Documents\\GitHub\\GED Lab Assignment 2 AK Repo\\Assets\\Audio\\audioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Audio\\audioManager.cs",
+              "ToolTip": "C:\\Users\\klahm\\OneDrive\\Documents\\GitHub\\GED Lab Assignment 2 AK Repo\\Assets\\Audio\\audioManager.cs",
+              "RelativeToolTip": "Assets\\Audio\\audioManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T16:24:50.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuestManager.cs",
+              "DocumentMoniker": "C:\\Users\\klahm\\OneDrive\\Documents\\GitHub\\GED Lab Assignment 2 AK Repo\\Assets\\Scripts\\QuestManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\QuestManager.cs",
+              "ToolTip": "C:\\Users\\klahm\\OneDrive\\Documents\\GitHub\\GED Lab Assignment 2 AK Repo\\Assets\\Scripts\\QuestManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\QuestManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T16:21:52.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Singleton.cs",
+              "DocumentMoniker": "C:\\Users\\klahm\\OneDrive\\Documents\\GitHub\\GED Lab Assignment 2 AK Repo\\Assets\\Scripts\\Lab2 Additional Scripts\\Singleton.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Lab2 Additional Scripts\\Singleton.cs",
+              "ToolTip": "C:\\Users\\klahm\\OneDrive\\Documents\\GitHub\\GED Lab Assignment 2 AK Repo\\Assets\\Scripts\\Lab2 Additional Scripts\\Singleton.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Lab2 Additional Scripts\\Singleton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T16:20:30.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SceneManager.cs",
+              "DocumentMoniker": "C:\\Users\\klahm\\OneDrive\\Documents\\GitHub\\GED Lab Assignment 2 AK Repo\\Assets\\Scripts\\UI\\SceneManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\SceneManager.cs",
+              "ToolTip": "C:\\Users\\klahm\\OneDrive\\Documents\\GitHub\\GED Lab Assignment 2 AK Repo\\Assets\\Scripts\\UI\\SceneManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\SceneManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T15:55:55.747Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
