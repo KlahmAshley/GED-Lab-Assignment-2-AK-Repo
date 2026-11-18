@@ -7,6 +7,9 @@ using UnityEngine.EventSystems;
 
 public class DialogueManager : Observer
 {
+    private DialogueManagerController DMC;
+    private bool _isDialogueOn;
+
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private TextMeshProUGUI NameText;
@@ -50,9 +53,6 @@ public class DialogueManager : Observer
     public GameObject bJock;
     public GameObject bFail;
 
-   private DialogueManagerController DMC;
-    private bool _isDialogueOn;
-
 
     private void Awake()
     {
@@ -90,32 +90,23 @@ public class DialogueManager : Observer
 
     private void Update()
     {
-
-
-        if (!dialogueIsPlaying)
+        if (_isDialogueOn)
         {
-            return;
-        }
-
-
-
-       if (!dialogueIsPlaying || _isDialogueOn)
-        {
-           return;
-        }
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            if (currentStory.currentChoices.Count == 0)
+            if (!dialogueIsPlaying)
             {
-                ContinueStory();
+                return;
+            }
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                if (currentStory.currentChoices.Count == 0)
+                {
+                    ContinueStory();
+                }
             }
         }
-    
     }
 
-    
-   
     public void EnterDialogueMode(TextAsset inkJSON)
     {
         stopMovement.enabled = false;
@@ -127,9 +118,6 @@ public class DialogueManager : Observer
 
         ContinueStory();
     }
-
-
-
 
     private IEnumerator ExitDialogueMode()
     {
